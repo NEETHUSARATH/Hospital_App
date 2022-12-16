@@ -1,0 +1,20 @@
+[
+    {
+        "HospitalName": "Govt Medical College",
+        "PatientCount": "20000",
+        "HospitalLocation": "Calicut"
+
+    },
+    {
+
+        "HospitalName": "EMS Hospital",
+        "PatientCount": "10000",
+        "HospitalLocation": "Perinthalmanna"
+
+    },
+    {
+        "HospitalName": "MIMS",
+        "PatientCount": "9000",
+        "HospitalLocation": "Kotakkal"
+    }
+]
