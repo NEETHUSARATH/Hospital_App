@@ -11,6 +11,14 @@ app.get('/hospital',(req,res)=>{
 
 app.post('/hospital',(req,res)=>{
     data.push(req.body);
+    fs.writeFile('dataset.json',JSON.stringify(data),(err,resp)=>{
+        if(err){
+            res.send("Data cannot be written");
+        }
+        else{
+            res.send("Data written successfully");
+        }
+    });
 });
 
 
