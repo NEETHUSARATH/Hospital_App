@@ -40,6 +40,20 @@ app.put('/hospital/:name',(req,res)=>{
   })
 })
 
+app.delete('/hospital/:name',(req,res)=>{
+    let name=req.params.name;
+    let value = data.filter(item=> item.HospitalName !== name);
+    fs.writeFile('dataset.json',JSON.stringify(data),(err,resp)=>{
+        if(err){
+            res.send("Data could not be deleted");
+        }
+        else{
+            res.send("Data deleted successfully");
+        }
+  })
+
+})
+
 
 
 app.listen(3000);

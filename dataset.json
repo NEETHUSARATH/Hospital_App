@@ -1,7 +1,1 @@
-[
-    {"HospitalName":"Govt Medical College","PatientCount":"20000","Location":"Calicut"},
-    {"HospitalName":"EMS Hospital","PatientCount":"10000","Location":"Malappuram"},
-    {"HospitalName":"MIMS","PatientCount":"9000","Location":"Kotakkal"},
-    {"HospitalName":"Pariyaram Medical College","PatientCount":"5000","Location":"Kannur"},
-    {"HospitalName":"Sree Chithra","PatientCount":"25000","Location":"Trivandrum"}
-]
+[{"HospitalName":"Govt Medical College","PatientCount":"20000","Location":"Calicut"},{"HospitalName":"EMS Hospital","PatientCount":"10000","Location":"Malappuram"},{"HospitalName":"MIMS","PatientCount":"9000","Location":"Kotakkal"},{"HospitalName":"Pariyaram Medical College","PatientCount":"5000","Location":"Kannur"},{"HospitalName":"Sree Chithra","PatientCount":"25000","Location":"Trivandrum"}]
