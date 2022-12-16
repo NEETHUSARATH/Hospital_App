@@ -22,5 +22,25 @@ app.post('/hospital',(req,res)=>{
 });
 
 
+app.put('/hospital/:name',(req,res)=>{
+    let name=req.params.name;
+    data.forEach((item)=>{
+        if(item.HospitalName==name){
+            item.Location=req.body.Location;
+            item.PatientCount=req.body.PatientCount;
+        }
+    })
+    fs.writeFile('dataset.json',JSON.stringify(data),(err,resp)=>{
+        if(err){
+            res.send("Data could not be updated");
+        }
+        else{
+            res.send("Data updated successfully");
+        }
+  })
+})
+
+
+
 app.listen(3000);
 console.log("server listening to port 3000");
